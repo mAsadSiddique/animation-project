@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import Home from './Home';
 
 function NavBar() {
     return ( <
@@ -16,12 +15,12 @@ function NavBar() {
         variant = "light" >
         <
         Navbar.Brand className = "navbar-brand"
-        href = "#" > Khan Motors < /Navbar.Brand> <
+        href = "/Home" > Khan Motors < /Navbar.Brand> <
         Nav className = "ml-auto" >
         <
-        Nav.Link href = "#home" > Home < /Nav.Link> <
-        Nav.Link href = "#features" > Services < /Nav.Link> <
-        Nav.Link href = "#pricing" > About < /Nav.Link> <
+        Nav.Link href = "/Home" > Home < /Nav.Link> <
+        Nav.Link href = "/Services" > Services < /Nav.Link> <
+        Nav.Link href = "/About" > About < /Nav.Link> <
         /Nav> <
         /Navbar> <
         /div> <
