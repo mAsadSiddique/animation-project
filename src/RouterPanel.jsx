@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Components/Home';
 import About from './Components/About';
 import Services from './Components/Service';
+import Navbar from './Components/NavBar';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import NotFound from './Components/NotFound';
 
@@ -9,14 +10,13 @@ function RouterPanel() {
     return ( <
         div >
         <
-        BrowserRouter >
+        BrowserRouter > {
+            /* <Link className="Home" to="/Home" >Home</Link>
+                            <Link className="Services" to="/Services" >Services</Link>
+                            <Link className="About" to="/About" >About</Link> */
+        } <
+        Navbar / >
         <
-        Link className = "Home"
-        to = "/Home" > Home < /Link> <
-        Link className = "Services"
-        to = "/Services" > Services < /Link> <
-        Link className = "About"
-        to = "/About" > About < /Link> <
         Routes >
         <
         Route path = "/Home"
