@@ -1,8 +1,13 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
 
+
+    // let handleClick = (event)=>{
+    //     console.log(event.target)
+    // }
 
     return ( <
         >
@@ -13,32 +18,54 @@ function NavBar() {
         <
         div className = "col-10 mx-auto" >
         <
-        Navbar bg = "light"
+        Navbar className = "navbar navbar-expand-lg navbar-light bg-light"
+        bg = "light"
         expand = "lg" >
         <
-        Navbar.Brand href = "/home" > Khan Motors < /Navbar.Brand> <
+        NavLink className = "navbar-brand"
+        to = "/home" > Khan Motors < /NavLink> <
         Navbar.Toggle ariacontrols = "basic-navbar-nav" / >
         <
-        Navbar.Collapse id = "basic-navbar-nav" >
+        Navbar.Collapse id = "basic-navbar-nav" > { /* <Nav className="navbar-nav ml-auto mb-2 mb-lg-0"> */ } <
+        ul className = "navbar-nav ml-auto mb-2 mb-lg-0" >
         <
-        Nav className = "ml-auto" >
+        li className = "nav-item" >
         <
-        Nav.Link href = "/Home"
-        // activateClassName="active-link"
-        >
+        NavLink exact activateClassName = "menu-active"
+        className = "nav-link "
+        to = "/Home" >
         Home <
-        /Nav.Link> <
-        Nav.Link href = "/Services"
-        // activateClassName="active-link"
-        >
+        /NavLink> <
+        /li>
+
+        <
+        li className = "nav-item" >
+        <
+        NavLink activateClassName = "menu-active"
+        className = "nav-link "
+        to = "/Services" >
         Services <
-        /Nav.Link> <
-        Nav.Link href = "/About"
-        // activateClassName="active-link"
-        >
+        /NavLink> <
+        /li>
+
+        <
+        li className = "nav-item" >
+        <
+        NavLink activateClassName = "menu-active"
+        className = "nav-link "
+        to = "/About" >
         About <
-        /Nav.Link> <
-        /Nav> <
+        /NavLink> <
+        /li> <
+        li className = "nav-item" >
+        <
+        NavLink activateClassName = "menu-active"
+        className = "nav-link "
+        to = "/Contact" >
+        Contact <
+        /NavLink> <
+        /li> <
+        /ul> { /* </Nav> */ } <
         /Navbar.Collapse> <
         /Navbar> <
         /div> <

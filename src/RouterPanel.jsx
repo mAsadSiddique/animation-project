@@ -5,6 +5,7 @@ import Services from './Components/Service';
 import Navbar from './Components/NavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NotFound from './Components/NotFound';
+import Contact from './Components/Contact';
 
 function RouterPanel() {
     return ( <
@@ -22,8 +23,12 @@ function RouterPanel() {
         element = { < About / > } > < /Route> <
         Route path = "Services"
         element = { < Services / > } > < /Route> <
+        Route path = "Contact"
+        element = { < Contact / > } > < /Route> <
         Route path = "*"
-        element = { < NotFound / > } > < /Route> <
+        element = { < NotFound / > } > < /Route>
+
+        <
         /Routes> <
         /BrowserRouter> <
         /div>
