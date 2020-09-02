@@ -1,6 +1,4 @@
 import React from 'react';
-// import {Card, Button} from 'react-bootstrap';
-// import web from '../images/'
 import Card from './Card';
 
 function Services() {
@@ -16,13 +14,12 @@ function Services() {
         <
         div className = "col-10 mx-auto" >
         <
-        div className = "row" >
-        <
-        div className = "col-md-4 col-10 mx-auto" >
+        div className = "row gy-4" >
+
         <
         Card / >
+
         <
-        /div> <
         /div> <
         /div>
 

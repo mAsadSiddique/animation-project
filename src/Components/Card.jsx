@@ -10,28 +10,31 @@ function setCard() {
     console.log(data);
     return (
         data.map((data, ind) => {
-            return ( <
-                div key = { ind } >
+            return (
+
                 <
-                Card style = {
-                    { width: '18rem' } } >
+                div key = { ind }
+                className = "col-md-4 d-flex col-12 mx-auto" >
                 <
-                Card.Img variant = "top"
+                Card >
+                <
+                Card.Img className = "card-img-top"
+                variant = "top"
                 src = { data.imgSrc }
+                alt = { data.title }
                 /> <
-                Card.Body >
+                Card.Body className = "card-body" >
                 <
-                Card.Title > { data.title } < /Card.Title> <
+                Card.Title className = "card-title font-weight-bold" > { data.title } < /Card.Title> <
                 Card.Text >
                 Some quick example text to build on the card title and make up the bulk of the card 's content. <
                 /Card.Text> <
-                NavLink class = "btn btn-primary"
+                NavLink className = "btn btn-primary"
                 to = "/Contact" > Go somewhere < /NavLink> <
                 /Card.Body> <
-                /Card>
-
-                <
+                /Card> <
                 /div>
+
             )
         })
     )

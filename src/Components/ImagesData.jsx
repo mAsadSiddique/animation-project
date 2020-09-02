@@ -19,6 +19,14 @@ const imgData = [{
     {
         title: "Bike",
         imgSrc: web,
+    },
+    {
+        title: "fortuner1",
+        imgSrc: fortuner,
+    },
+    {
+        title: "Bike1",
+        imgSrc: web,
     }
 ]
 
