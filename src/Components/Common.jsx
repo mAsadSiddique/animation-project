@@ -12,7 +12,7 @@ function Common(props) {
         section id = "header"
         className = "d-flex align-items-center" >
         <
-        div className = "container-fluid nav_bg" >
+        div className = "container-fluid" >
         <
         div className = "row" >
         <
