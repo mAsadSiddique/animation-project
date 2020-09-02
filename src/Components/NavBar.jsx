@@ -31,7 +31,8 @@ function NavBar() {
         <
         li className = "nav-item" >
         <
-        NavLink exact activateClassName = "menu-active"
+        NavLink exact = "true"
+        activeClassName = "menu-active"
         className = "nav-link "
         to = "/Home" >
         Home <
@@ -41,7 +42,7 @@ function NavBar() {
         <
         li className = "nav-item" >
         <
-        NavLink activateClassName = "menu-active"
+        NavLink activeClassName = "menu-active"
         className = "nav-link "
         to = "/Services" >
         Services <
@@ -51,7 +52,7 @@ function NavBar() {
         <
         li className = "nav-item" >
         <
-        NavLink activateClassName = "menu-active"
+        NavLink activeClassName = "menu-active"
         className = "nav-link "
         to = "/About" >
         About <
@@ -59,7 +60,7 @@ function NavBar() {
         /li> <
         li className = "nav-item" >
         <
-        NavLink activateClassName = "menu-active"
+        NavLink activeClassName = "menu-active"
         className = "nav-link "
         to = "/Contact" >
         Contact <

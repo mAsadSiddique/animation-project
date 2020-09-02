@@ -17,7 +17,7 @@ function RouterPanel() {
         <
         Routes >
         <
-        Route path = "/Home"
+        Route exact path = "/Home"
         element = { < Home / > } > < /Route> <
         Route path = "About"
         element = { < About / > } > < /Route> <
