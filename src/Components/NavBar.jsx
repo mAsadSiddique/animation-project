@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
@@ -14,7 +14,6 @@ function NavBar() {
                             bg="light"
                             expand="lg" >
                             <NavLink
-                                exact={true}
                                 className="navbar-brand"
                                 to="/Home" > Khan Motors
                                 </NavLink>
@@ -24,7 +23,6 @@ function NavBar() {
                                 <ul className="navbar-nav ml-auto mb-2 mb-lg-0" >
                                     <li className="nav-item" >
                                         <NavLink
-                                            exact
                                             activeClassName="menu-active"
                                             className="nav-link "
                                             to="/Home" >
