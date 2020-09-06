@@ -5,10 +5,14 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 
 import RouterPanel from './RouterPanel';
 
+
+
+
 function App() {
-    return ( <
-        div className = "App" > { < RouterPanel / > } { /* <NavBar /> */ } { /* <h2 > Hello </h2> */ } <
-        /div>
+    return (
+        <div className="App" >
+            {< RouterPanel />}
+        </div>
     );
 }
 

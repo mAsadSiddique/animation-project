@@ -7,16 +7,14 @@ function Home(props) {
 
 
 
-    return ( <
-        >
-        <
-        Common name = "Grow Your Life Style With"
-        imgSrc = { web }
-        visit = "/About"
-        btnName = "Get Started" /
-        >
-        <
-        />
+    return (
+        <>
+            <Common name="Grow Your Life Style With"
+                imgSrc={web}
+                visit="/Services"
+                btnName="Get Started"
+            />
+        </>
     );
 }
 
