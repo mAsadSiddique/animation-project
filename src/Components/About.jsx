@@ -7,16 +7,13 @@ function About() {
 
 
 
-    return ( <
-        >
-        <
-        Common name = "Welcome TO About Page Of"
-        imgSrc = { web }
-        visit = "/Contact"
-        btnName = "Contact Now" /
-        >
-        <
-        />
+    return (
+        <>
+            <Common name="Welcome TO About Page Of"
+                imgSrc={web}
+                visit="/Contact"
+                btnName="Contact Now" />
+        </>
     );
 }
 
