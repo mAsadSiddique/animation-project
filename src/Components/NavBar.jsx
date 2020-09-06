@@ -4,11 +4,6 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
 
-
-    // let handleClick = (event)=>{
-    //     console.log(event.target)
-    // }
-
     return ( <
         >
         <
@@ -65,7 +60,9 @@ function NavBar() {
         to = "/Contact" >
         Contact <
         /NavLink> <
-        /li> <
+        /li>
+
+        <
         /ul> { /* </Nav> */ } <
         /Navbar.Collapse> <
         /Navbar> <

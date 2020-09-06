@@ -1,6 +1,6 @@
 import React from 'react';
 // import { NavLink } from 'react-router-dom';
-import web from '../../src/images/bike-illustration_1x.png'
+import web from '../../src/images/def.jpg';
 import Common from './Common';
 
 function Home(props) {
