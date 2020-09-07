@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import NotFound from './Components/NotFound';
 import Contact from './Components/Contact';
 import FooterBar from './Components/Footer';
+import OurTeam from './Components/ourTeam';
 
 function RouterPanel() {
     return (
@@ -18,6 +19,7 @@ function RouterPanel() {
             <Routes >
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/Home" element={< Home />} ></Route>
+                <Route path="Team" element={< OurTeam />} > </Route>
                 <Route path="About" element={< About />} > </Route>
                 <Route path="Services" element={< Services />} > </Route>
                 <Route path="Contact" element={< Contact />} > </Route>

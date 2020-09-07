@@ -51,6 +51,14 @@ function NavBar() {
                                             Contact </NavLink>
                                     </li>
 
+                                    <li className="nav-item" >
+                                        <NavLink
+                                            activeClassName="menu-active"
+                                            className="nav-link "
+                                            to="Team" >
+                                            Our Team </NavLink>
+                                    </li>
+
                                 </ul>
                                 { /* </Nav> */}
                             </Navbar.Collapse>
